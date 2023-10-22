@@ -1,0 +1,72 @@
+h1{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 50px 100px;
+    flex-wrap: wrap;
+}
+.col1{
+    height: max-content;
+}
+.img img{
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.desc{
+    width: 350px;
+}
+.desc span{
+    padding: 10px 0px;
+}
+span{
+    display: inline-block;
+    color: orangered;
+}
+.btn{
+    display: inline-block;
+    background-color: orangered;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 100px;
+}
+.comment{
+    flex: 3 5 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
